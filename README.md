@@ -21,4 +21,8 @@ then you are ready to deploy the odoo to your kubernetes.
 ```bash
 kubectl apply -f k8s-odoo.yaml
 ```
+**PGSQL PASSWORD: password1!**
+
+**Master PASSWORD: password1!**
+
 **P.S. This example is used for DEV environment, is not tested in production**
