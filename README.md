@@ -34,5 +34,5 @@ kubectl appky -f k8s-odoo_with-CM_Secrets.yaml
 
 **ODOO Master PASSWORD: ```echo cGFzc3dvcmQxIQ== | base64 -d```**
 
-- P.S. This example is used for DEV environment, is not tested in production
+**P.S. This example is used for DEV environment, is not tested in production**
 
