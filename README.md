@@ -25,7 +25,7 @@ kubectl apply -f k8s-odoo.yaml
 
 **ODOO Master PASSWORD: password1!**
 
-Deploy odoo with ConfigMaps for odoo configuration file, and use a Secret for Variables
+Deploy odoo with ConfigMaps for odoo configuration file, and Secrets for Variables
 
 ```bash
 kubectl appky -f k8s-odoo_with-CM_Secrets.yaml
